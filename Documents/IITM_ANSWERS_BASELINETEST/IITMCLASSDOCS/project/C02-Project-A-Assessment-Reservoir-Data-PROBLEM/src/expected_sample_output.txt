@@ -1,0 +1,16 @@
+{'_id': ObjectId('625a4a96f44f6aca078bad8c'), 'device_id': 'DS004', 'desc': 'Salinity Sensor', 'type': 'Salinity', 'manufacturer': 'Acme'}
+
+Device id DC201 already exists!
+
+{'_id': ObjectId('625a4a96f44f6aca078badb8'), 'device_id': 'DS001', 'value': 896, 'timestamp': datetime.datetime(2021, 12, 2, 13, 30)}
+
+Generate daily reports
+Get daily report for one day
+{'device_id': 'DS004', 'avg_value': 997.12, 'min_value': 758, 'max_value': 1234, 'date': '2021-12-02'}
+
+Get daily report for multiple days
+[{'device_id': 'DC004', 'avg_value': 74.62, 'min_value': 57, 'max_value': 90, 'date': '2021-12-03'}, {'device_id': 'DC004', 'avg_value': 77.0, 'min_value': 49, 'max_value': 100, 'date': '2021-12-02'}, {'device_id': 'DC004', 'avg_value': 71.88, 'min_value': 56, 'max_value': 97, 'date': '2021-12-04'}, {'device_id': 'DC004', 'avg_value': 74.62, 'min_value': 57, 'max_value': 90, 'date': '2021-12-03'}, {'device_id': 'DC004', 'avg_value': 77.0, 'min_value': 49, 'max_value': 100, 'date': '2021-12-02'}, {'device_id': 'DC004', 'avg_value': 71.88, 'min_value': 56, 'max_value': 97, 'date': '2021-12-04'}, {'device_id': 'DC004', 'avg_value': 74.62, 'min_value': 57, 'max_value': 90, 'date': '2021-12-03'}, {'device_id': 'DC004', 'avg_value': 77.0, 'min_value': 49, 'max_value': 100, 'date': '2021-12-02'}, {'device_id': 'DC004', 'avg_value': 71.88, 'min_value': 56, 'max_value': 97, 'date': '2021-12-04'}]
+
+{'device_id': 'DS001', 'anomaly_max': 1163, 'date': '2021-12-03'}
+
+{'device_id': 'DC002', 'anomaly_max': 89, 'date': '2021-12-04'}
